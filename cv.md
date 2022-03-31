@@ -1,6 +1,6 @@
 # Artem Prygunov
 
-![photo](./pictures/ava_111.jpg "Личное фото")
+![photo](./pictures/ava_112.jpg "Личное фото")
 
 ### Junior Web-deveoper
 *************
