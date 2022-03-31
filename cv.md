@@ -9,7 +9,7 @@
 * Phone: +7 926 227-16-59
 * E-mail: harry177@rambler.ru
 * Telegram: @harry177
-* GitHub: harry177
+* GitHub: [harry177](https://github.com/harry177)
 
 *****************
 
