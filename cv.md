@@ -1,6 +1,6 @@
 # Artem Prygunov
 
-![photo](\rs_school\rsschool-cv\pictures\ava_111.jpg "Личное фото")
+![photo](./pictures/ava_111.jpg "Личное фото")
 
 ### Junior Web-deveoper
 *************
