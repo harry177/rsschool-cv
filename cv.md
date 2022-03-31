@@ -4,10 +4,10 @@
 *************
 ### Contacts
 
-Phone: +7 926 227-16-59
-E-mail: harry177@rambler.ru
-Telegram: @harry177
-GitHub: harry177
+* Phone: +7 926 227-16-59
+* E-mail: harry177@rambler.ru
+* Telegram: @harry177
+* GitHub: harry177
 
 *****************
 
@@ -19,12 +19,13 @@ Now I am locating in Istanbul, studying markup languages (HTML, CSS), JavaScript
 
 ### Skills and qualification
 
-*HTML
-*CSS
-*JavaScript
-*Git
-*VS Code
-*Enlish language (Intermeadiate level)
+* HTML
+* CSS
+* JavaScript
+* Git
+* VS Code
+* Enlish language (Intermeadiate level)
+* German language (Basic level)
 
 ### Code example
 
@@ -44,3 +45,12 @@ Now I am locating in Istanbul, studying markup languages (HTML, CSS), JavaScript
 <p class = "crazy-style">Enjoy the funny expression!:)</p>
 </body>
 </html>
+```
+
+### Education
+
+1. Peoples Friemship University of Russia (PFUR), Moscow, 2010 - economist
+2. Gaidar Insitute for Economic Policy, Moscow, 2013 - economist
+3. Rolling Scope School, online education, in progress - JS/Front end
+
+
