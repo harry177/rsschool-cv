@@ -1,5 +1,7 @@
 # Artem Prygunov
 
+![photo](\rs_school\rsschool-cv\pictures\ava_111.jpg "Личное фото")
+
 ### Junior Web-deveoper
 *************
 ### Contacts
@@ -24,8 +26,6 @@ Now I am locating in Istanbul, studying markup languages (HTML, CSS), JavaScript
 * JavaScript
 * Git
 * VS Code
-* Enlish language (Intermeadiate level)
-* German language (Basic level)
 
 ### Code example
 
@@ -53,4 +53,7 @@ Now I am locating in Istanbul, studying markup languages (HTML, CSS), JavaScript
 2. Gaidar Insitute for Economic Policy, Moscow, 2013 - economist
 3. Rolling Scope School, online education, in progress - JS/Front end
 
+### Languages
 
+* Enlish language (Intermeadiate level)
+* German language (Basic level)
