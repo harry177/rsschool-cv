@@ -15,19 +15,47 @@
     <header class="header">
         <div class="container1">
             <nav class="nav">
-                <ul class="catalogue">
+                <ul>
                     <li class="header-list">
                         <a href="#contacts" class="catalogue">
                             Contacts
                         </a>
                     </li>
-                    <li class="header-list">Private summary</li>
-                    <li class="header-list">Skills & qualification</li>
-                    <li class="header-list">Education</li>
-                    <li class="header-list">IT courses</li>
-                    <li class="header-list">Code example</li>
-                    <li class="header-list">Languages</li>
-                    <li class="header-list">Projects</li>
+                    <li class="header-list">
+                        <a href="#summary" class="catalogue">
+                            Private summary
+                        </a>
+                    </li>
+                    <li class="header-list">
+                        <a href="#skills" class="catalogue">
+                            Skills & qualification
+                        </a>
+                    </li>
+                    <li class="header-list">
+                        <a href="#code" class="catalogue">
+                            Code example
+                        </a>
+                    </li>
+                    <li class="header-list">
+                        <a href="#education" class="catalogue">
+                            Education
+                        </a>
+                    </li>
+                    <li class="header-list">
+                        <a href="#courses" class="catalogue">
+                            IT courses
+                        </a>
+                    </li>
+                    <li class="header-list">
+                        <a href="#languages" class="catalogue">
+                        Languages
+                        </a>
+                    </li>
+                    <li class="header-list">
+                        <a href="#projects" class="catalogue">
+                            Projects
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -36,26 +64,30 @@
     <main>
         <div class="container2 main-container">
             <section class="section section-profile" id="profile">
-                <img src="/assets/ava_112.jpg" alt="Avatar" class="logo-pic">
-                    <div>
+                <img src="./assets/ava_112.jpg" alt="Avatar" class="logo-pic">
+                    <div class="section-profile-title">
                         <h1 class="section-title">Artem Prygunov</h1>
-                        <h2 class="section-title">Junior Web-developer</h2>
+                        <h3 class="section-title">Junior Web-developer</h3>
                     </div>
             </section>
 
             <section class="section" id="contacts">
-                <h2 class="section-title">Contacts</h2>
+                <h3 class="section-title">Contacts</h3>
                 <ul>
                     <li>Phone: +7 926 227-16-59</li>
                     <li>E-mail: harry177@rambler.ru</li>
                     <li>Telegram: @harry177</li>
-                    <li></li>
-                    <li></li>
+                    <li>Github: 
+                        <a href="https://github.com/harry177" class="catalogue">harry177</a>
+                    </li>
+                    <li>LinkedIn: 
+                        <a href="https://www.linkedin.com/in/artem-prygunov-97b4a53a/" class="catalogue">Artem Prygunov</a>
+                    </li>
                 </ul>
             </section>
 
             <section class="section" id="summary">
-                <h2 class="section-title">Private summary</h2>
+                <h3 class="section-title">Private summary</h3>
                 <p>My job path was connected with finance, commerce and e-commerce. 
                    Right after the recent events of 24 february 
                    my little business in Moscow was ruined and I decided to relocate from Russia 
@@ -64,7 +96,7 @@
             </section>
 
             <section class="section" id="skills">
-                <h2 class="section-title">Skills & qualification</h2>
+                <h3 class="section-title">Skills & qualification</h3>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -75,8 +107,25 @@
                 </ul>
             </section>
 
+            <section class="section" id="code">
+                <h3 class="section-title">Code example</h3>
+                <pre class="pre">
+                    <code>
+                        let salaries = {
+                            Me: 100500,
+                            TheGirlNextDoor: 150,
+                        };
+                        let sum = 0;
+                        for (let key in salaries) {
+                            sum += salaries[key];
+                        }
+                        alert(sum);
+                    </code>
+                </pre>
+            </section>
+
             <section class="section" id="education">
-                <h2 class="section-title">Education</h2>
+                <h3 class="section-title">Education</h3>
                 <ul>
                     <li>Peoples Friendship University of Russia (PFUR), Moscow, 2010 - economist</li>
                     <li>Gaidar Insitute for Economic Policy, Moscow, 2013 - economist</li>
@@ -85,7 +134,7 @@
             </section>
 
             <section class="section" id="courses">
-                <h2 class="section-title">IT courses</h2>
+                <h3 class="section-title">IT courses</h3>
                 <ul>
                     <li>Code basics: HTML</li>
                     <li>Code basics: CSS</li>
@@ -93,17 +142,8 @@
                 </ul>
             </section>
 
-            <section class="section" id="code">
-                <h2 class="section-title">Code example</h2>
-                <pre>
-                    <code>
-
-                    </code>
-                </pre>
-            </section>
-
             <section class="section" id="languages">
-                <h2 class="section-title">Languages</h2>
+                <h3 class="section-title">Languages</h3>
                 <ul>
                     <li>English: Intermediate level</li>
                     <li>German: Pre-intermediate level</li>
@@ -111,18 +151,29 @@
             </section>
 
             <section class="section" id="projects">
-                <h2 class="section-title">Projects</h2>
+                <h3 class="section-title">Projects</h3>
                 <ul>
-                    <li>CV: markdown</li>
-                    <li>CV: html+css</li>
+                    <li>
+                        <a href="https://harry177.github.io/rsschool-cv/cv" class="catalogue">CV: markdown</a>
+                    </li>
+                    <li>
+                        <a href="https://harry177.github.io/rsschool-cv/" class="catalogue">CV: html+css</a>
+                    </li>
                 </ul>
             </section>
         </div>
     </main>
 
     <footer class="footer">
-        <div class="container2">
-            Artem Prygunov
+        <div class="container3">
+           <div class="footer-left"> 2022 
+                <a href="https://github.com/harry177" class="catalogue">
+                    Artem Prygunov (harry177)
+                </a>
+           </div>
+            
+                <a href="https://rs.school/js/" class="rss"></a>
+            
         </div>
     </footer>
     
